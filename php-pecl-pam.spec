@@ -1,7 +1,7 @@
 %define		modname	pam
 %define		_status		stable
 Summary:	%{modname} - PAM integration
-Summary(pl.UTF-8):	%{modname} - intergracja z PAM-em
+Summary(pl.UTF-8):	%{modname} - integracja z PAM-em
 Name:		php-pecl-%{modname}
 Version:	1.0.2
 Release:	1
@@ -27,10 +27,10 @@ tasks.
 In PECL status of this extension is: %{_status}.
 
 %description -l pl.UTF-8
-Rozszerzenie to dostarcza wsparcia dla PAM (Pluggable Authentitcation
-Modules). PAM to system bibliotek obsługujących proces autentykacji
-aplikacji i usług. Biblioteka dostarcza stabilnego API umożliwiającego
-aplikacjom obsłużenie zadań autentykacji.
+Rozszerzenie to zapewnia integrację z systemem PAM (Pluggable
+Authentication Modules). PAM to system bibliotek obsługujących proces
+uwierzytelniania aplikacji i usług. Biblioteka dostarcza stabilne API
+umożliwiające aplikacjom obsłużenie zadań uwierzytelniania.
 
 To rozszerzenie ma w PECL status: %{_status}.
 

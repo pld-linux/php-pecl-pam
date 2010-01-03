@@ -3,12 +3,12 @@
 Summary:	%{modname} - PAM integration
 Summary(pl.UTF-8):	%{modname} - integracja z PAM-em
 Name:		php-pecl-%{modname}
-Version:	1.0.2
+Version:	1.0.3
 Release:	1
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-# Source0-md5:	5ea92fe39ef2ba45366ee194fcd86734
+# Source0-md5:	2dfd378a76021245050333cd4d49ed96
 URL:		http://pecl.php.net/package/PAM/
 BuildRequires:	pam-devel
 BuildRequires:	php-devel >= 3:5.0.0

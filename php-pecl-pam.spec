@@ -1,8 +1,9 @@
+%define		php_name	php%{?php_suffix}
 %define		modname	pam
 %define		status	stable
 Summary:	%{modname} - PAM integration
 Summary(pl.UTF-8):	%{modname} - integracja z PAM-em
-Name:		php-pecl-%{modname}
+Name:		%{php_name}-pecl-%{modname}
 Version:	1.0.3
 Release:	6
 License:	PHP
@@ -11,8 +12,8 @@ Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 # Source0-md5:	2dfd378a76021245050333cd4d49ed96
 URL:		http://pecl.php.net/package/PAM/
 BuildRequires:	pam-devel
-BuildRequires:	php-devel >= 3:5.0.0
-BuildRequires:	rpmbuild(macros) >= 1.344
+BuildRequires:	%{php_name}-devel >= 3:5.0.0
+BuildRequires:	rpmbuild(macros) >= 1.650
 %{?requires_php_extension}
 Requires:	php(core) >= 5.0.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

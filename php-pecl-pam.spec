@@ -5,7 +5,7 @@ Summary:	%{modname} - PAM integration
 Summary(pl.UTF-8):	%{modname} - integracja z PAM-em
 Name:		%{php_name}-pecl-%{modname}
 Version:	1.0.3
-Release:	7
+Release:	8
 License:	PHP
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
